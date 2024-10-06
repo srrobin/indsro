@@ -1,0 +1,967 @@
+@import url('https://fonts.googleapis.com/css?family = Roboto:400,500,700,900');
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0 0 10px;
+    font-weight: 700;
+}
+html,body { height: 100% }
+body { font-family: 'Roboto', sans-serif;}
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+/* ===============image =============*/
+
+.slider-bg-1{background-image: linear-gradient(#0003,#000),url(img/1.jpeg)}
+.slider-bg-2{background-image: linear-gradient(#0003,#000),url(img/2.jpeg)}
+.slider-bg-3{background-image: linear-gradient(#0003,#000),url(img/3.webp)}
+.service-bg-1{background-image:url(img/4.webp)}
+.service-bg-2{background-image:url(img/5.jpeg)}
+.service-sm-img-1{background-image:url(img/6.jpeg)}
+.project-bg-1{background-image:url(img/7.webp)}
+.box-bg-1{background-image:url(img/8.webp)}
+.flower-bg-6{background-image:url(img/9.jpg)}
+.flower-bg-5{background-image:url(img/10.jpg)}
+.flower-bg-4{background-image:url(img/11.jpg)}
+.flower-bg-3{background-image:url(img/5.jpeg)}
+.flower-bg2{background-image:url(img/6.jpeg)}
+.flower-bg-1{background-image:url(img/7.webp)} 
+
+ 
+
+.section-gray{  
+     background-color:#F1F5F8; 
+ }
+
+
+
+
+
+/* ===============header top area =============*/
+.header-top-area {
+    background-color: #222;
+    font-size: 15px;
+    padding: 14px 0;
+}
+.header-top-area i.fa {
+    color: #b8860b;
+}
+.header-top-area, .header-top-area a {
+    color: #fff;
+}
+.separator {
+    color: #A9A9A9;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+/* ===============logo & main menu area =============*/
+.mainmenu ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+.mainmenu li {
+    display: inline-block;
+    position: relative;
+}
+.mainmenu li a {
+    color: #222;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 30px 20px;
+    text-transform: uppercase;
+}
+.mainmenu li:hover > a {
+    background-color: #f1f5f8;
+}
+.header-search-area {
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.logo {
+    padding: 18px 0;
+    text-transform: uppercase;
+}
+.logo a {
+    color: #222;
+}
+.logo h1 {
+    border: 3px solid #222;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 0;
+    padding: 5px 10px;
+}
+
+
+
+/* ===============##slider area ##=============*/
+
+
+.single-slider-item {
+    background-color: #ddd;
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    font-size: 18px;
+    height: 590px;
+}
+.slider-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.slider-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.single-slider-item h2 {
+    font-size: 40px;
+    margin: 0 0 25px;
+}
+.factorial-btn {
+    background-color: #b8860b;
+    color: #222;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 15px;
+    text-transform: uppercase;
+	border-radius:4px;
+}
+.slider-btn {
+    margin: 20px 0 0;
+}
+
+/*---slider prev& next button css ---*/
+		 
+.homepage-slider .owl-nav div {
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    height: 30px;
+    left: 50px;
+    line-height: 25px;
+    margin-top: -15px;
+    opacity: 0.4;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 30px;
+}
+.homepage-slider .owl-nav div.owl-next {
+    left: auto;
+    right: 50px;
+}
+.homepage-slider .owl-nav div:hover {
+    opacity: 1;
+}
+
+
+/* ===============## BLOG  area ##=============*/
+
+.factorian-containt-blog {
+    padding: 100px 0;
+}
+.single-service-bg {
+    background-color: #ddd;
+    background-position: center center;
+    background-size: cover;
+    height: 180px;
+}
+.single-service-item {
+    color: #222;
+    font-size: 15px;
+}
+.single-service-item h3 {
+    font-size: 18px;
+    margin: 8px 0;
+}
+.readmore-btn {
+    color: #222;
+    font-size: 14px;
+    font-weight: 500;
+}
+.readmore-btn i.fa {
+    font-size: 15px;
+    padding-left: 5px;
+}
+.single-small-service-item {
+    border-bottom: 1px solid #e9e9e9;
+    color: #222;
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    padding-bottom: 14px;
+}
+.single-small-service-item img {
+    float: left;
+    height: 70px;
+    margin-right: 14px;
+    width: 100px;
+}
+.single-small-service-item h3 {
+    font-size: 15px;
+}
+.single-small-service-item p:last-child {
+    margin: 0;
+}
+.single-small-service-item:hover {
+    background-color: #e9e9e9;
+    opacity: 0.2;
+}
+.factorial-cta-area {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+}
+.factorial-cta-area h2 {
+    font-size: 24px;
+    margin: 6px 0;
+}*/
+
+/* ===============## who-we-are-text area ##=============*/
+.who-we-are-text {
+    padding: 20px 0;
+}
+.single-promo-item i.fa {
+    border: 3px solid #b8860b;
+    border-radius: 50%;
+    color: #b8860b;
+    height: 30px;
+    left: 0;
+    line-height: 25px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 30px;
+}
+.single-promo-item {
+    margin: 40px 0;
+    padding-left: 44px;
+    position: relative;
+}
+
+
+.check-list li:before {
+    color: #b8860b;
+    content: "";
+    font-family: fontawesome;
+    padding-right: 12px;
+}
+.check-list {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 33px;
+    list-style: none outside none;
+    margin: 20px 0 0;
+    padding: 0;
+}
+/* ===============## who-we-are-text area ##=============*/
+.section-title {
+    margin-bottom: 50px;
+    text-align: center;
+    width: 400px;
+}
+.section-title h3 {
+    font-weight: 700;
+    line-height: 30px;
+}
+.single-project-item {
+    margin: 0 0 60px;
+}
+.single-box-item h4,.single-project-item h4 {
+    font-size: 15px;
+    margin: 15px 0 5px;
+}
+.single-box-item,.single-project-item {
+    color: #222;
+    display: block;
+}
+.box-preview,.project-preview {
+    background-color: #ddd;
+    background-position: center center;
+    background-size: cover;
+    height: 180px;
+}
+
+.factorian-containt-blog.testimonial-border {
+    border-top: 1px solid #ddd;
+}
+.single-testimonial-item {
+    color: #666;
+}
+.testimonial-content {
+    font-size: 15px;
+}
+.testimonial-content i.fa {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.single-testimonial-item h4 {
+    font-size: 16px;
+    margin: 20px 0 0;
+}
+.single-testimonial-item span {
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 27px;
+}
+
+.footer-top-area {
+    background-color: #222;
+    font-size: 16px;
+    padding: 80px 0;
+}
+.footer-top-area, .footer-top-area a {
+    color: #cacaca;
+}
+.footer-logo {
+    background-color: #b8860b;
+    color: #222;
+    display: inline-block;
+    font-weight: 700;
+    margin: 0 0 14px;
+    padding: 8px 50px;
+    text-transform: uppercase;
+}
+.footer-wid ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.footer-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+}
+.footer-bottom-area {
+    background-color: #1d1d1d;
+    color: #cacaca;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 11px 0;
+}
+/*=========================================ABOUT . HTML CSSS HERE =========================================*/
+
+.factorian-breadcrumb-area h2 {
+    font-size: 23px;
+    margin: 0 0 5px;
+}
+.factorian-breadcrumb-area {
+    padding: 35px 0;
+}
+.aboutus-area {
+    padding-right: 50px;
+}
+
+.space-90 {
+    height: 90px;
+}
+
+
+.journey-area {
+    padding-right: 40px;
+}
+.border-space-80 {
+    border-bottom: 1px solid #f4f4f4;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+
+
+.journey-area {
+    padding-right: 40px;
+}
+.border-space-80 {
+    border-bottom: 1px solid #f4f4f4;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+.single-team-bg {
+    background-color: #ddd;
+    background-position: center center;
+    background-size: cover;
+    float: left;
+    height: 355px;
+    position: relative;
+    width: 33.33%;
+}
+.team-hover-area {
+    bottom: -30px; 
+    color: #fff;
+    left: 0;
+    opacity: 0;
+    padding: 10px;
+    position: absolute;
+    transition: all 0.2s ease 0s;
+    visibility: hidden;
+    width: 100%;
+    z-index: -1;
+}
+.team-hover-area h3 {
+    font-size: 18px;
+    margin: 0 0 2px;
+}
+.single-team-bg:hover  .team-hover-area {
+    bottom: 0;
+    opacity: 1;
+    visibility: visible;
+	z-index:9;
+	
+}
+
+
+/*======================================= practice 2 css ================================*/
+
+.factorial-bradcom-area {
+    background-color: #f1f5f8;
+    padding: 31px 0;
+    text-align: center;
+}
+.factorial-bradcom-area h3 {
+    font-size: 19px;
+    margin: 0 0 16px;
+}
+.light-box {
+    display: block;
+    margin-bottom: 30px;
+    position: relative;
+}
+.light-box i.fa {
+    color: #fff;
+    font-size: 19px;
+    left: 50%;
+    line-height: 20px;
+    margin-left: -10px;
+    margin-top: -10px;
+    position: absolute;
+    top: 60%;
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+    width: 20px;
+    z-index: -1;
+}
+.light-box:after {
+    background-color: #000;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    width: 100%;
+    z-index: -1;
+	transition:all 0.3s ease 0s;
+}
+.light-box:hover i.fa {
+    top: 50%;
+    visibility: visible;
+    z-index: 2;
+}
+.light-box:hover:after {
+    opacity: 0.3;
+    visibility: visible;
+    z-index: 1;
+}
+
+
+
+.factorial-contand-area {
+    padding: 70px 0;
+}
+.single-step-item {
+    margin-top: 30px;
+    padding-left: 66px;
+    position: relative;
+}
+.single-step-item span.step-count {
+    border: 1px solid #000;
+    border-radius: 50%;
+    font-weight: 700;
+    height: 35px;
+    left: 0;
+    line-height: 33px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 35px;
+}
+.single-step-item h4 {
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.quote-title {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 30px;
+}
+.quote-form {
+    box-shadow: 0 0 7px #000;
+    padding: 27px 30px;
+}
+.quote-form input[type="text"],.quote-form input[type="email"] ,.quote-form input[type="tel"] ,.quote-form  textarea  {
+    border: 1px solid #999;
+    display: block;
+    margin-bottom: 24px;
+    padding: 5px;
+    width: 100%;
+}
+.quote-form  textarea{ 
+height:100px;
+}
+ 
+.factorial-contand-area {
+    padding: 50px 0;
+}
+.quote-form input[type="submit"] {
+
+    background-color: #f9bf3a;
+    border-color:  #999;
+    border-image: none;
+    border-radius: 3px;
+    border-style: none none solid;
+    border-width: medium medium 4px;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+
+.single-flower-item {
+    background-color: #ddd;
+    background-position: center center;
+    background-size: cover;
+    float: left;
+    height: 218px;
+    position: relative;
+    width: 33.33%;
+}
+.flower-hober-section {
+    bottom: -20px;
+    color: #fff;
+    left: 0;
+    opacity: 0;
+    padding: 13px;
+    position: absolute;
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+    z-index: -1;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+12,000000+30,000000+92&0+15,0+15,0+26,0.65+67 */
+background: -moz-linear-gradient(top, rgba(0,0,0,0) 12%, rgba(0,0,0,0) 15%, rgba(0,0,0,0) 26%, rgba(0,0,0,0.06) 30%, rgba(0,0,0,0.65) 67%, rgba(0,0,0,0.65) 92%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0) 12%,rgba(0,0,0,0) 15%,rgba(0,0,0,0) 26%,rgba(0,0,0,0.06) 30%,rgba(0,0,0,0.65) 67%,rgba(0,0,0,0.65) 92%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,0,0,0) 12%,rgba(0,0,0,0) 15%,rgba(0,0,0,0) 26%,rgba(0,0,0,0.06) 30%,rgba(0,0,0,0.65) 67%,rgba(0,0,0,0.65) 92%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+}
+.single-flower-item:hover .flower-hober-section {
+    bottom: 0;
+    opacity: 1;
+    visibility: visible;
+    z-index: 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+.single-flower-bg {
+    background-color: #ddd;
+    background-position: center center;
+    background-size: cover;
+    float: left;
+    height: 324px;
+    position: relative;
+    width: 33.33%;
+}
+.hover-info-area {
+    bottom: -19px;
+    color: #fff;
+    font-size: 16px;
+    left: 0;
+    opacity: 0;
+    padding: 15px;
+    position: absolute;
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+    z-index: -1;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+12,000000+30,000000+92&0+15,0+15,0+26,0.65+67 */
+background: -moz-linear-gradient(top, rgba(0,0,0,0) 12%, rgba(0,0,0,0) 15%, rgba(0,0,0,0) 26%, rgba(0,0,0,0.06) 30%, rgba(0,0,0,0.65) 67%, rgba(0,0,0,0.65) 92%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0) 12%,rgba(0,0,0,0) 15%,rgba(0,0,0,0) 26%,rgba(0,0,0,0.06) 30%,rgba(0,0,0,0.65) 67%,rgba(0,0,0,0.65) 92%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,0,0,0) 12%,rgba(0,0,0,0) 15%,rgba(0,0,0,0) 26%,rgba(0,0,0,0.06) 30%,rgba(0,0,0,0.65) 67%,rgba(0,0,0,0.65) 92%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+}
+.single-flower-bg:hover .hover-info-area {
+    bottom: 0;
+    opacity: 1;
+    visibility: visible;
+    z-index: 9;
+}
+
+.bgimg {
+    background-image: linear-gradient(#1b5e20 50%, #124116 50%);
+    height: 100vh;
+    width: 100%;
+}
+.centerdiv {
+    background-color: #fff;
+    border: 2px solid #999;
+    border-radius: 6px;
+    box-shadow: 0 0 70px #42f4d7;
+    height: 400px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+}
+#profile {
+    border: 2px solid #999;
+    border-radius: 50%;
+    height: 120px;
+    position: relative;
+    top: -60px;
+    width: 120px;
+	left:calc((300px - 120px) / 2);
+}
+
+.centerdiv h2 {
+}
+.centerdiv h2 {
+    color: #7bc5ed;
+    font-size: 2em;
+    margin-bottom: 50px;
+    margin-top: -50px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #1d7abf;
+    text-transform: uppercase;
+    word-spacing: 9px;
+}
+.inputbox {
+   border: 1px solid #999;
+box-sizing: border-box;
+display: block;
+height: 30px;
+margin: auto auto 20px;
+padding: 0 10px;
+width: calc(100% - 40px);
+border-radius: 15px;
+}
+
+button{ 
+background-color: #017bc9;
+border: medium none;
+box-sizing: border-box;
+display: block;
+height: 30px;
+margin: auto auto 20px;
+padding: 0 10px;
+width: calc(100% - 40px);
+color: #fff;
+text-transform: uppercase;
+font-weight: 700;
+}
+
+button.forgot{ 
+background-color:#138AFF;
+text-align:right;
+}
+
+
+
+
+
+/*======================================= practice css ================================
+
+
+.factorial-bradcome-area {
+    background-color: #bdbdbd;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 24px 0;
+}
+.factorial-bradcome-area h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.factorial-contand-area {
+    padding: 100px 0;
+}
+.light-box {
+    display: block;
+    margin-bottom: 30px;
+    position: relative;
+}
+.light-box i.fa {
+    color: #fff;
+    font-size: 20px;
+    left: 50%;
+    line-height: 20px;
+    margin-left: -10px;
+    margin-top: -10px;
+    position: absolute;
+    top: 60%;
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+    width: 20px;
+    z-index: -1;
+}
+.light-box:after {
+    background-color: #000;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition: all 0.2s ease 0s;
+    visibility: hidden;
+    width: 100%;
+    z-index: -1;
+}
+.light-box:hover i.fa {
+    top: 50%;
+    visibility: visible;
+    z-index: 2;
+}
+.light-box:hover:after {
+    opacity: 0.3;
+    visibility: visible;
+    z-index: 1;
+}
+.single-count-area {
+    margin-top: 30px;
+    padding-left: 50px;
+    position: relative;
+}
+.single-count-area span.step-count {
+    border: 1px solid #000;
+    border-radius: 50%;
+    font-weight: 600;
+    height: 35px;
+    left: 0;
+    line-height: 33px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 35px;
+}
+.single-count-area p:last-child {
+    margin: 0;
+}
+.single-count-area h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.quote-title {
+    background-color: #424242;
+    color: #e0e0e0;
+    font-size: 16px;
+    padding: 20px 30px;
+}
+.quote-title h4 {
+    color: #fff;
+}
+.quote-form {
+    box-shadow: 0 0 7px #bdbdbd;
+    padding: 30px;
+}
+.quote-form label {
+    display: block;
+}
+.quote-form input[type="text"],.quote-form input[type="email"],.quote-form input[type="tel"],.quote-form textarea {
+    border: 1px solid #bdbdbd;
+    margin-bottom: 10px;
+    padding: 6px;
+    width: 100%;
+}
+.quote-form textarea{ 
+ height:100px;
+}
+
+input[type="submit"] {
+    background-color: #f8bf3a;
+    border: medium none;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.quote-form input[type="submit"] {
+    border-bottom: 4px solid #999;
+    border-radius: 3px;
+}
+
+/*====== service area css =======
+
+.service-breadcrumb-area {
+    padding: 40px 0;
+}
+
+
+.light-box {
+    display: block;
+    margin-bottom: 30px;
+    position: relative;
+}
+.light-box i.fa {
+    color: #fff;
+    font-size: 25px;
+    left: 50%;
+    line-height: 20px;
+    margin-left: -10px;
+    margin-top: -10px;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    top: 60%;
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+    width: 20px;
+}
+.light-box:after {
+    background-color: #000;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition: all 0.2s ease 0s;
+    visibility: hidden;
+    width: 100%;
+    z-index: -1;
+}
+.light-box:hover i.fa {
+    opacity: 1;
+    top: 50%;
+    visibility: visible;
+    z-index: 2;
+}
+.light-box:hover:after {
+    opacity: 0.3;
+    visibility: visible;
+    z-index: 1;
+}
+.space-50 {
+    height: 50px; 
+}
+.space-45 {
+    height: 45px; 
+}
+
+.single-step-item {
+    margin-top: 30px;
+    padding-left: 60px;
+    position: relative;
+}
+.single-step-item span.step-count {
+    border: 2px solid #000;
+    border-radius: 50%;
+    font-size: 16px;
+    height: 35px;
+    left: 0;
+    line-height: 31px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 35px;
+}
+.single-step-item h3 {
+    text-transform: uppercase;
+}
+.single-step-item p:last-child {
+    margin: 0;
+}
+
+
+.single-step-item {
+    margin-top: 30px;
+    padding-left: 60px;
+    position: relative;
+}
+.single-step-item span.step-count {
+    border: 2px solid #000;
+    border-radius: 50%;
+    font-size: 16px;
+    height: 35px;
+    left: 0;
+    line-height: 31px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 35px;
+}
+.single-step-item h3 {
+    text-transform: uppercase;
+}
+.single-step-item p:last-child {
+    margin: 0;
+}
+.qot-title {
+    background-color: #505050;
+    color: #fff;
+    padding: 20px;
+}
+.qot-title h3 {
+    font-size: 19px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.qot-form {
+    box-shadow: 0 0 7px #ccc;
+    padding: 30px;
+}
+.qot-form label {
+    display: block;
+    font-weight: 400;
+}
+
+.qot-form input[type="text"],.qot-form input[type="email"],.qot-form input[type="tel"],.qot-form  textarea {
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 100%;
+}
+.qot-form  textarea{ 
+height:100px;
+}
+
+input[type="submit"] {
+    background-color: #f8bf3a;
+    border: medium none;
+    font-weight: 700;
+    padding: 9px 20px;
+    text-transform: uppercase;
+}
+.qot-form input[type="submit"] {
+    border-bottom: 4px solid #d6a137;
+    border-radius: 3px;
+    color: #fff;
+}
