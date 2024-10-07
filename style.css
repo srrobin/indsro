@@ -18,14 +18,18 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 }
 /* ===============image =============*/
 
-.slider-bg-1{background-image: linear-gradient(#0003,#000),url(img/1.jpeg)}
-.slider-bg-2{background-image: linear-gradient(#0003,#000),url(img/2.jpeg)}
-.slider-bg-3{background-image: linear-gradient(#0003,#000),url(img/3.webp)}
+.slider-bg-1{background-image: linear-gradient(#0003,#000),url(img/11.jpg)}
+.slider-bg-2{background-image: linear-gradient(#0003,#000),url(img/10.jpg)}
+.slider-bg-3{background-image: linear-gradient(#0003,#000),url(img/15.jpg)}
 .service-bg-1{background-image:url(img/4.webp)}
 .service-bg-2{background-image:url(img/5.jpeg)}
 .service-sm-img-1{background-image:url(img/6.jpeg)}
+.project-bg-3{background-image:url(img/3.webp)}
+.project-bg-2{background-image:url(img/15.jpg)}
 .project-bg-1{background-image:url(img/7.webp)}
-.box-bg-1{background-image:url(img/8.webp)}
+.box-bg-1{background-image:url(img/2.jpeg)}
+.box-bg-2{background-image:url(img/6.jpeg)}
+.box-bg-3{background-image:url(img/12.jpg)}
 .flower-bg-6{background-image:url(img/9.jpg)}
 .flower-bg-5{background-image:url(img/10.jpg)}
 .flower-bg-4{background-image:url(img/11.jpg)}
